@@ -1,4 +1,6 @@
 var event_emit=require("events").EventEmitter;
+var test=require("./test");
+test.dire_bonjour();
 
 var jeu=new event_emit();
 
